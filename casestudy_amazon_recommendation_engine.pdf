@@ -1,0 +1,29 @@
+# AI in Business: Amazon Recommendation Engine
+
+## 1. Company Overview
+Amazon is the world’s largest e-commerce platform, processing over 2.5 billion visits monthly. Founded in 1994, it generated **$574 billion in revenue in 2023**, with **35% of sales driven by product recommendations**.
+
+---
+
+## 2. Purpose of the AI/Expert System
+The **Amazon Recommendation Engine** uses AI to:
+- Increase **customer engagement**
+- Boost **average order value**
+- Drive **35% of total revenue**
+- Reduce choice overload for 300M+ products
+
+---
+
+## 3. Components Involved
+
+| Component           | Description |
+|---------------------|-----------|
+| **Knowledge Base**  | 20+ years of user behavior: clicks, purchases, views, ratings |
+| **Inference Engine**| Collaborative Filtering + Deep Learning (Neural CF) |
+| **Data Layer**      | Real-time streams (Kafka), batch (S3), user profiles |
+| **User Interface**  | "Customers who bought X also bought Y", "Recommended for You" |
+| **Model**           | Item-to-Item Collaborative Filtering (patented 2003), Deep Neural Networks |
+
+---
+
+## 4. How It Works (Simplified Rule Example)

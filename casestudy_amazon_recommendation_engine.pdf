@@ -28,10 +28,10 @@ The **Amazon Recommendation Engine** uses AI to:
 
 ## 4. How It Works (Simplified Rule Example)
 
-
-
-
-
+IF User A bought {Book1, Book2}
+AND User B bought {Book1, Book2, Book3}
+AND User A has not bought Book3
+→ Recommend Book3 to User A (with confidence score)
 
 
 Uses **cosine similarity** between item vectors.
